@@ -19,11 +19,14 @@ Las variables nos sirven para almacenar informacion.
     --success-color-600: #c15bbf;
     --success-color-800: #0000;
 
-     --text-color-100: #ffff;
-     --text-color-800: #0000;
+    --background-color-800:rgb(20, 19, 19) ;
+    --text-color-100: #ffff;
+    --text-color-800: #0000;
     
     --box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
     --border-color: 1px solid #ededed;
+
+    --height: ;
 
 }
 
@@ -66,15 +69,55 @@ header{
           position: fixed;
           top: 20px;
           left: 20px;
-          width: 1450px;
           z-index: 100;   
     
-         background-color: #3d973d;
-         display: flex;
-         flex-direction: row;
-
-      
+          width: 1450px;
+          height: var(--height);
+        
+          background-color: #33b533;
+          display: flex;
+          flex-direction: row;
+     
      }
+ 
+.business{
+          color: #fff;
+          background-color:rgb(16, 15, 15);
+         }  
+         
+.boton{
+         background-color:rgb(16, 15, 15);
+         color:#fff;
+         border: none;
+      }         
+
+ .boton:hover{
+         /* transform: scale(2.7); 
+         /* transform: translate(2px);*/
+         /* transform: rotate(45deg);*/
+         /* font-size: 28px;*/
+          overflow: hidden;
+          transition: --height 0.3s ease;
+                  
+        }                
+
+.listas{
+           display: flex;
+           flex-direction: row;
+       }   
+
+.cont-der{
+            display: flex;
+            flex-direction: row;
+            justify-content:right;
+        }
+
+.lupa{
+         background-color:rgb(16, 15, 15);
+         color:#fff;
+         border: none;
+      }        
+
 
 .header-h{
        width: 100px;
@@ -90,53 +133,51 @@ header{
    
 
 .header-h:nth-child(1){
-    color:var(--text-color-100);
-    background-color: rgb(16, 15, 15);
-}
+                       color:var(--text-color-100);
+                       background-color:var(--background-color-800);
+                      
+                     }
 .header-h:nth-child(2){
-     color:var(--text-color-100);
-     background-color:rgb(20, 19, 19);
-    
-   
-}
+                      color:var(--text-color-100);
+                      background-color:var(--background-color-800);
+                     }
 .header-h:nth-child(3){
-    font: 24px ;
-    color:var(--text-color-100);
-    background-color: rgb(38, 41, 41);
-}
+                     
+                     color:var(--text-color-100);
+                     background-color:var(--background-color-800);
+                    }
 .header-h:nth-child(4){
-    color:var(--text-color-100);
-    background-color:rgb(60, 64, 60);
-}
+                      color:var(--text-color-100);
+                      background-color:var(--background-color-800);
+                     }
 .header-h:nth-child(5){
-    font: 14px ;
-    color:var(--text-color-100);
-    background-color: rgb(31, 30, 30);
-}
+                       color:var(--text-color-100);
+                       background-color:var(--background-color-800);
+                      }
 .header-h:nth-child(6){
-    color:var(--text-color-100);
-    background-color: rgb(42, 39, 42);
-}
+                       color:var(--text-color-100);
+                       background-color:var(--background-color-800);
+                       }
 .header-h:nth-child(7){
-    color:var(--text-color-100);
-    background-color: rgb(42, 43, 42);
-}
+                        color:var(--text-color-100);
+                        background-color:var(--background-color-800);
+                      }
 .header-h:nth-child(8){
-    color:var(--text-color-100);
-    background-color: rgb(42, 43, 42);
-}
+                       color:var(--text-color-100);
+                       background-color:var(--background-color-800);
+                       }
 .header-h:nth-child(9){
-    color:var(--text-color-100);
-    background-color: rgb(42, 43, 42);
-}
+                        color:var(--text-color-100);
+                        background-color:var(--background-color-800);
+                       }
 .header-h:nth-child(10){
-    color:var(--text-color-100);
-    background-color: rgb(42, 43, 42);
-}
+                        color:var(--text-color-100);
+                        background-color:var(--background-color-800);
+                       }
 .header-h:nth-child(11){
-    color:var(--text-color-100);
-    background-color: rgb(42, 43, 42);
-}
+                        color:var(--text-color-100);
+                        background-color:var(--background-color-800);
+                        }
 
 
 
@@ -146,7 +187,7 @@ header{
         width: 100%;
         height: 1164px;
        
-        background-color: rgb(26, 209, 188);
+        background-color: black;
 
         margin: 10px;
         border: 10px; 
@@ -155,7 +196,7 @@ header{
  
 .tarjetas-main{
                 width: 1500px; 
-                background-color: #73cfca;
+                background-color:var(--background-color-800);
                 display: flex;
                 flex-direction: row; 
                 justify-content: center;
@@ -165,7 +206,8 @@ header{
 
 .Elsad-p{
           width: 1500px;  
-          background-color:#4444a8;
+        /*   background-color:var(--background-color-800);*/
+          background-color:#4444a8; 
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -188,20 +230,25 @@ header{
 .Elsad-h:nth-child(1){
                      width: auto;
                      color: var(--success-color-100);
-                     font: 42px;
-                     background-color: rgb(0, 128, 26);
+                     background-color:var(--background-color-800);
+                     font-size: 38px;
+                     
                     }
 
 .Elsad-h:nth-child(2){
                     width: auto;
                     color: var(--success-color-100);
-                    background-color: rgb(0, 2, 128);
+                     background-color:var(--background-color-800);
+                     font-size: 22px;
+                                     
                    }
 
 .Elsad-h:nth-child(3){
-                     width: auto; 
-                     color: var(--success-color-100);
-                     background-color: rgb(128, 128, 0);
+                       width: auto; 
+                       color: var(--success-color-100);
+                       background-color:var(--background-color-800);
+                       font-size: 22px;
+                     
                      }
 
 
@@ -219,12 +266,38 @@ header{
 
 .tarjeta-producto 
 .tarjeta-producto__imagen{
-                          width:100%;
-                          
+                          width:95%;
+                           margin: 10px;
+                           border: 50px; 
                          }   
 
+.tarjeta-producto__titulo{
+                            margin: 20px;
+                            border: 20px; 
+                            font-size: 25px;
+                            color: var(--success-color-100);
+                         }
 
+.tarjeta-producto__descrip{
+                           margin: 20px;
+                           border: 20px; 
+                           font-size: 18px;
+                           color: var(--success-color-100);
+                          }  
 
+.tarjeta-producto__lista{
+                           margin: 20px;
+                           border: 20px; 
+                           font-size: 18px;
+                           color: var(--success-color-100);
+                        }
+
+.lista-chactgpt{
+                 margin: 20px;
+                 border: 20px; 
+                 font-size: 18px;
+                 color: var(--success-color-100);  
+                }                        
 .img-p{
         width: 100%;
         height: 700px;
@@ -234,7 +307,7 @@ header{
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        gap: 12px;
+        gap: 22px;
        }
 
 .img-h:nth-child(1){
