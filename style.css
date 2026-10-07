@@ -206,8 +206,7 @@ header{
 
 .Elsad-p{
           width: 1500px;  
-        /*   background-color:var(--background-color-800);*/
-          background-color:#4444a8; 
+          background-color:#4444a8;  /*  cuando este mas terminado poner este color   var(--background-color-800);*/
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -337,15 +336,16 @@ header{
                       border-radius: 10px;
                       color: #19c73c;
                       background-color: rgb(59, 55, 57);
-                      /*
-                      position: relative; */
-        
+                     
                     }
 
 .tarjeta-producto__boton-1{
                                   width: 80%;
                                   height: 55px;
                                   border-radius: 33px;
+                                  margin-top: 66px;
+                                  margin-left: 44px;
+                                  
                                   background-color: var(--success-color-100);
                                   
                                   display: flex;
@@ -358,6 +358,8 @@ header{
                                   width: 80%;
                                   height: 55px;
                                   border-radius: 33px;
+                                  margin-top: 47px;
+                                  margin-left: 44px;
                                   background-color: var(--success-color-100);
                                   
 
@@ -372,6 +374,8 @@ header{
                                   width: 80%;
                                   height: 55px;
                                   border-radius: 33px;
+                                  margin-top: 66px;
+                                  margin-left: 44px;
                                   background-color: var(--success-color-100);
                                 
 
