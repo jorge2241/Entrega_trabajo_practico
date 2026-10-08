@@ -6,9 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 /* Variables de CSS */
-/* 
-Las variables nos sirven para almacenar informacion.
-*/
+
 :root{
     --ff-text: "Inter","Roboto", sans-serif;
     --success-color-100: #ffff;
@@ -21,12 +19,13 @@ Las variables nos sirven para almacenar informacion.
 
     --background-color-800:rgb(20, 19, 19) ;
     --text-color-100: #ffff;
+    --text-color-700: #fff9;
     --text-color-800: #0000;
     
     --box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
     --border-color: 1px solid #ededed;
 
-    --height: ;
+    --height:11vh ;
 
 }
 
@@ -51,19 +50,19 @@ a{
 
   /*  HEADER  */
 header{
-    width: 1500px;
-    height: 64px;
-    min-height: 100px;
-    background-color: royalblue;
+         width: 94rem;
+         height: 7rem;
+         min-height: 1rem;
+         background-color: royalblue;
 
-     margin: 10px;
-     border: 10px; 
+         margin: 10px;
+         border: 10px; 
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-   }
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center;
+       }
 
 .header-p{
           position: fixed;
@@ -71,7 +70,7 @@ header{
           left: 20px;
           z-index: 100;   
     
-          width: 1450px;
+          width: 90rem;
           height: var(--height);
         
           background-color: #33b533;
@@ -120,12 +119,13 @@ header{
 
 
 .header-h{
-       width: 100px;
-       height: 60px;
+       width: 7rem;
+       height: 4rem;
        border-radius: 10px;
        background-color: black;
        margin: 10px;
        border: 50px; 
+
        display: flex;
        justify-content: center;
        align-items: center;
@@ -185,7 +185,7 @@ header{
 
 .main{
         width: 100%;
-        height: 1164px;
+        height: 73rem;
        
         background-color: black;
 
@@ -195,8 +195,9 @@ header{
      }
  
 .tarjetas-main{
-                width: 1500px; 
+                width: 94rem; 
                 background-color:var(--background-color-800);
+
                 display: flex;
                 flex-direction: row; 
                 justify-content: center;
@@ -205,8 +206,9 @@ header{
             }     
 
 .Elsad-p{
-          width: 1500px;  
-          background-color:#4444a8;  /*  cuando este mas terminado poner este color   var(--background-color-800);*/
+          width: 94rem;  
+          background-color:#4444a8;            /*  cuando este mas terminado poner este color   var(--background-color-800);*/
+          
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -215,11 +217,12 @@ header{
 
 .Elsad-h{
        width: 100%;
-       height: 60px;
+       height: 4rem;
        border-radius: 10px;
        background-color: rgb(235, 229, 53);
        margin: 10px;
        border: 50px; 
+
        display: flex;
        justify-content: center;
        align-items: center;
@@ -230,7 +233,7 @@ header{
                      width: auto;
                      color: var(--success-color-100);
                      background-color:var(--background-color-800);
-                     font-size: 38px;
+                     font-size: 2rem;
                      
                     }
 
@@ -238,7 +241,7 @@ header{
                     width: auto;
                     color: var(--success-color-100);
                      background-color:var(--background-color-800);
-                     font-size: 22px;
+                     font-size: 1rem;
                                      
                    }
 
@@ -246,7 +249,7 @@ header{
                        width: auto; 
                        color: var(--success-color-100);
                        background-color:var(--background-color-800);
-                       font-size: 22px;
+                       font-size: 1rem;
                      
                      }
 
@@ -280,21 +283,21 @@ header{
 .tarjeta-producto__descrip{
                            margin: 20px;
                            border: 20px; 
-                           font-size: 18px;
+                           font-size: 1rem;
                            color: var(--success-color-100);
                           }  
 
 .tarjeta-producto__lista{
                            margin: 20px;
                            border: 20px; 
-                           font-size: 18px;
+                           font-size: 1rem;
                            color: var(--success-color-100);
                         }
 
 .lista-chactgpt{
                  margin: 20px;
                  border: 20px; 
-                 font-size: 14px;
+                 font-size: 1rem;
                  line-height: 26px;
                  color: var(--success-color-100);  
                 }          
@@ -303,7 +306,7 @@ header{
 
 .img-p{
         width: 100%;
-        height: 700px;
+        height: 44rem;
         padding: 10px;    
         
        
@@ -315,8 +318,8 @@ header{
        }
 
 .img-h:nth-child(1){
-                     width:800px;
-                     height:630px;
+                     width:50rem;
+                     height:40rem;
                      border-radius: 10px;
                      color: #17c30e;
                      background-color: rgb(59, 55, 57);
@@ -324,16 +327,16 @@ header{
 
 
 .img-h:nth-child(2){
-                     width:800px;
-                     height:630px;
+                     width:50rem;
+                     height:40rem;
                      border-radius: 10px;
                      color: #24b821;
                      background-color:rgb(59, 55, 57) ;
                     }
 
 .img-h:nth-child(3){
-                      width:800px;
-                      height:630px;
+                      width:50rem;
+                      height:40rem;
                       border-radius: 10px;
                       color: #19c73c;
                       background-color: rgb(59, 55, 57);
@@ -342,9 +345,9 @@ header{
 
 .tarjeta-producto__boton-1{
                                   width: 80%;
-                                  height: 55px;
+                                  height: 3rem;
                                   border-radius: 33px;
-                                  margin-top: 66px;
+                                  margin-top: 50px;
                                   margin-left: 44px;
                                   
                                   background-color: var(--success-color-100);
@@ -357,9 +360,9 @@ header{
 
 .tarjeta-producto__boton-2{
                                   width: 80%;
-                                  height: 55px;
+                                  height: 3rem;
                                   border-radius: 33px;
-                                  margin-top: 47px;
+                                  margin-top: 5px;
                                   margin-left: 44px;
                                   background-color: var(--success-color-100);
                                   
@@ -373,9 +376,9 @@ header{
 
 .tarjeta-producto__boton-3{
                                   width: 80%;
-                                  height: 55px;
+                                  height: 3rem;
                                   border-radius: 33px;
-                                  margin-top: 66px;
+                                  margin-top: 50px;
                                   margin-left: 44px;
                                   background-color: var(--success-color-100);
                                 
@@ -386,12 +389,12 @@ header{
                                   align-items: center;
                               }                
 .boton-main{
-             width: 256px;
-             height: 44px;
+             width: 16rem;
+             height: 3rem;
              background-color: var(--success-color-100);
              color: black;
              padding: 10px 20px;
-             font-size: 14px;
+             font-size: 1rem;
             
             }
 
@@ -400,8 +403,8 @@ header{
 
 
 .Foot-p{
-       width: 1500px; 
-       height: 559px;
+       width: 94rem; 
+       height: 35rem;
        background-color: #e06f13;
 
 
@@ -413,8 +416,8 @@ header{
       }
 
 .Foot-h{
-       width: 300px;
-       height: 500px;
+       width: 19rem;
+       height: 32rem;
        border-radius: 10px;
        background-color: black;
        margin: 10px;
@@ -428,35 +431,49 @@ header{
       
 .Foot-h:nth-child(1){
                     color: #4444a8;
-                    background-color: maroon;
+                    background-color:var(--background-color-800);
                   }
 
 .Foot-h:nth-child(2){
                     color: #4444a8;
-                    background-color: rgb(146, 76, 76);
+                     background-color:var(--background-color-800);
                    }
 
 .Foot-h:nth-child(3){
-                    color: #4444a8;
-                    background-color: rgb(133, 166, 176);
+                     color: #4444a8;
+                     background-color:var(--background-color-800);
                    }
 
 .Foot-h:nth-child(4){
-                    color: #4444a8;
-                    background-color: rgb(9, 128, 0);
+                      color: #4444a8;
+                      background-color:var(--background-color-800);
                    }
 .Foot-h:nth-child(5){
                     color: #4444a8;
-                    background-color: rgb(55, 0, 128);
+                    background-color:var(--background-color-800);
                    }
+
+/*  PARA TODAS LAS  COLUMNAS DEL FOOTER */
+
+
+.text-primario-foot{
+                     font-size: 2vh; 
+                     color: var(--text-color-700);  
+                     background-color:var(--background-color-800);
+                   }
+
+.text-secundario-foot{
+                       font-size: 2vh;
+                       color: var(--text-color-100);  
+                       background-color:var(--background-color-800);
+                      }
 
 /*  PRIMERA COLUMNA DEL FOOTER */
 
 .investigacion{
                  width: 95%;
-                 height: 200px;
-                 font-size: 13px;
-                 color: var(--success-color-100);  
+                 height: 13rem;
+                                 
                  background-color:var(--background-color-800);
 
                  display: flex;
@@ -465,26 +482,19 @@ header{
                  align-items: flex-start;
                }
 
-.text-secundario-foot{
-                       font-size: 13px;
-                       color: var(--success-color-100);  
-                       background-color:var(--background-color-800);
-                      }
-
 .investigacion-sec{   
                      list-style-type: none;  
                      line-height: 30px;
-                     color: var(--success-color-100);  
-                     background-color:var(--background-color-800);
+                    
+                     
                   }
 
                 
 
 .ultimos-avances{
                   width: 95%;
-                  height: 200px;
-                  font-size: 13px;
-                  color: var(--success-color-100);  
+                  height: 13rem;
+                  
                   background-color:var(--background-color-800);
 
                   display: flex;
@@ -496,16 +506,14 @@ header{
 .ultimos-avances-sec{   
                      list-style-type: none;  
                      line-height: 30px;
-                     color: var(--success-color-100);  
-                     background-color:var(--background-color-800);
+                                       
                   }    
 
                  
 .seguridad{
               width: 95%;
-              height: 200px;
-              font-size: 13px;
-              color: var(--success-color-100);  
+              height: 13rem;
+              
               background-color:var(--background-color-800);
 
               display: flex;
@@ -514,20 +522,217 @@ header{
               align-items: flex-start;
            }
        
+
 .seguridad-sec{
                 list-style-type: none;  
                 line-height: 30px;
-                color: var(--success-color-100);  
-                background-color:var(--background-color-800);
+                
                }           
        
     /*  SEGUNDA   COLUMNA DEL FOOTER */
 
+                     
+.productos{
+              width: 95%;
+              height: 13rem;
+              margin-top: -41px;
+              margin-left: 4px;
+              background-color:var(--background-color-800);
 
+              display: flex;
+              flex-direction: column;
+              justify-content: space-evenly;
+              align-items: flex-start;
+           }
+
+.productos-sec{
+                 list-style-type: none;  
+                 line-height: 30px;
+              }
+
+
+                    
+.plataformaAPI{
+              width: 95%;
+              height: 13rem;
+              margin-top: -33px;
+              margin-left: 0px;
+              background-color:var(--background-color-800);
+
+              display: flex;
+              flex-direction: column;
+              justify-content: space-evenly;
+              align-items: flex-start;
+           }
+
+.plataformaAPI-sec{
+                 list-style-type: none;  
+                 line-height: 30px;
+              }              
      /*  TERCERA   COLUMNA DEL FOOTER */
 
+                    
+.business-f{
+              width: 95%;
+              height: 13rem;
+              margin-top: -41px;
+              margin-left: 4px;
+              background-color:var(--background-color-800);
 
+              display: flex;
+              flex-direction: column;
+              justify-content: space-evenly;
+              align-items: flex-start;
+           }
+
+.business-f-sec{
+                 list-style-type: none;  
+                 line-height: 30px;
+              }
+
+
+                    
+.desarrolladores{
+                   width: 95%;
+                  height: 13rem;
+                  margin-top: -3px;
+                  margin-left: 0px;
+                  background-color:var(--background-color-800);
+
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: space-evenly;
+                 align-items: flex-start;
+           }
+
+.desarrolladores-sec{
+                     list-style-type: none;  
+                      line-height: 30px;
+                   }
       /*  CUARTA   COLUMNA DEL FOOTER */
 
+               
+.empresa{
+              width: 95%;
+              height: 10rem;
+              margin-top: -195px;
+              margin-left: 4px;
+              background-color:var(--background-color-800);
+
+              display: flex;
+              flex-direction: column;
+              justify-content: space-evenly;
+              align-items: flex-start;
+           }
+
+.empresa-sec{
+                 list-style-type: none;  
+                 line-height: 30px;
+              }
+
+
+                    
+.atencion{
+                   width: 95%;
+                  height: 8rem;
+                  margin-top: -170px;
+                  margin-left: 0px;
+                  background-color:var(--background-color-800);
+
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: space-evenly;
+                 align-items: flex-start;
+           }
+
+.atencion-sec{
+                     list-style-type: none;  
+                      line-height: 30px;
+                   }      
 
        /*  QUINTA   COLUMNA DEL FOOTER */
+
+              
+.mas{
+              width: 95%;
+              height: 13rem;
+              margin-top: -60px;
+              margin-left: 4px;
+              background-color:var(--background-color-800);
+
+              display: flex;
+              flex-direction: column;
+              justify-content: space-evenly;
+              align-items: flex-start;
+           }
+
+.mas-sec{
+                 list-style-type: none;  
+                 line-height: 30px;
+              }
+
+
+                    
+.terminos{
+                   width: 95%;
+                  height: 10rem;
+                  margin-top: 2px;
+                  margin-left: 0px;
+                  background-color:var(--background-color-800);
+
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: space-evenly;
+                 align-items: flex-start;
+           }
+
+.terminos-sec{
+                     list-style-type: none;  
+                      line-height: 30px;
+                   }      
+
+
+
+/*    ZOCALO   PIE DE PAGINA  */
+
+.Foot-p-zocalo{
+       width: 94rem; 
+       height: 35rem;
+       background-color: #e06f13;
+
+
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+       align-items: center;
+       gap: 22px;
+      }
+
+.Foot-h-zocalo{
+       width: 19rem;
+       height: 32rem;
+       border-radius: 10px;
+       background-color: black;
+       margin: 10px;
+       border: 50px; 
+
+       display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;
+       align-items: center;
+      }
+      
+.Foot-h:nth-child(1){
+                    color: #4444a8;
+                    background-color:var(--background-color-800);
+                  }
+
+.Foot-h:nth-child(2){
+                    color: #4444a8;
+                     background-color:var(--background-color-800);
+                   }
+
+.Foot-h:nth-child(3){
+                     color: #4444a8;
+                     background-color:var(--background-color-800);
+                   }                   
