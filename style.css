@@ -17,6 +17,8 @@
     --success-color-600: #c15bbf;
     --success-color-800: #0000;
 
+
+     --background-color-700:rgb(33, 40, 40) ;
     --background-color-800:rgb(20, 19, 19) ;
     --text-color-100: #ffff;
     --text-color-700: #fff9;
@@ -53,7 +55,7 @@ header{
          width: 94rem;
          height: 7rem;
          min-height: 1rem;
-         background-color: royalblue;
+         background-color:var(--background-color-800);
 
          margin: 10px;
          border: 10px; 
@@ -207,7 +209,7 @@ header{
 
 .Elsad-p{
           width: 94rem;  
-          background-color:#4444a8;            /*  cuando este mas terminado poner este color   var(--background-color-800);*/
+           background-color:var(--background-color-800);       /*  cuando este mas terminado poner este color   var(--background-color-800);*/
           
           display: flex;
           flex-direction: column;
@@ -219,7 +221,7 @@ header{
        width: 100%;
        height: 4rem;
        border-radius: 10px;
-       background-color: rgb(235, 229, 53);
+       background-color:var(--background-color-800);
        margin: 10px;
        border: 50px; 
 
@@ -407,7 +409,7 @@ header{
 .Foot-p{
        width: 94rem; 
        height: 35rem;
-       background-color: #e06f13;
+       background-color:var(--background-color-800);
 
 
        display: flex;
@@ -432,26 +434,26 @@ header{
       }
       
 .Foot-h:nth-child(1){
-                    color: #4444a8;
+                    
                     background-color:var(--background-color-800);
                   }
 
 .Foot-h:nth-child(2){
-                    color: #4444a8;
+                    
                      background-color:var(--background-color-800);
                    }
 
 .Foot-h:nth-child(3){
-                     color: #4444a8;
+                     
                      background-color:var(--background-color-800);
                    }
 
 .Foot-h:nth-child(4){
-                      color: #4444a8;
+                      
                       background-color:var(--background-color-800);
                    }
 .Foot-h:nth-child(5){
-                    color: #4444a8;
+                    
                     background-color:var(--background-color-800);
                    }
 
@@ -699,8 +701,8 @@ header{
 
 .Foot-p-zocalo{
        width: 94rem; 
-       height: 35rem;
-       background-color: #e06f13;
+       height: 15rem;
+       background-color:var(--background-color-800);
 
 
        display: flex;
@@ -712,7 +714,7 @@ header{
 
 .Foot-h-zocalo{
        width: 32rem;
-       height: 18rem;
+       height: 10rem;
        border-radius: 10px;
        background-color: black;
        margin: 10px;
@@ -720,14 +722,14 @@ header{
 
        display: flex;
        flex-direction: column;
-       justify-content: space-evenly;
+       justify-content:center;
        align-items: center;
       }
       
 
 .zocalo-red-social{
                  width: 95%;
-                 height: 13rem;
+                 height: 6rem;
                                  
                  background-color:var(--background-color-800);
 
@@ -742,7 +744,7 @@ header{
 .cookies{
               width: 80%;
               height: 11vh;
-              margin-top: -41px;
+              margin-top: -1px;
               margin-left: 4px;
               color: var(--text-color-100);
               font-size: 1rem;
@@ -775,7 +777,38 @@ header{
               justify-content: space-evenly;
               align-items: flex-start;
            }
+.lenguaje{
+              width: 52vh;
+              height: 8vh;
+              border-radius: 44px;
+              margin-top: -1px;
+              margin-left: 4px;
+              color: var(--text-color-100);
+              font-size: 1rem;
+              background-color:var(--background-color-700);
 
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+           }
+
+.lenguje-boton-zoc{
+              width: 45%;
+              height: 30%;
+              margin-top: 1px;
+              margin-left: 4px;
+              color: var(--text-color-100);
+              font-size: 1rem;
+              border: none;
+             
+              background-color:var(--background-color-700);
+
+              display: flex;
+              flex-direction: column;
+              justify-content: space-evenly;
+              align-items: flex-start;
+           }           
 
 
 /*   INICIO :   contenedor de imagen*/                     
@@ -792,25 +825,29 @@ header{
 
 .tarjeta-redsocial 
 .tarjeta-redsocial__imagen{
-                          width:95%;
+                           width:95%;
                            margin: 10px;
-                           border: 50px; 
+                           border: 5px; 
                          }   
 
 /*   FINAL :   contenedor de imagen*/           
 
 
-.Foot-h:nth-child(1){
-                    color: #4444a8;
-                    background-color:var(--background-color-800);
-                  }
+.Foot-h-zocalo:nth-child(1){
+                             width: 23rem;  
+                             height: 8rem;
+                             background-color:var(--background-color-800);
+                             
+                          }
 
-.Foot-h:nth-child(2){
-                    color: #4444a8;
-                     background-color:var(--background-color-800);
-                   }
+.Foot-h-zocalo:nth-child(2){
+                             width: 33rem;  
+                             height: 8rem;
+                             background-color:var(--background-color-800);
+                           }
 
-.Foot-h:nth-child(3){
-                     color: #4444a8;
-                     background-color:var(--background-color-800);
-                   }                   
+.Foot-h-zocalo:nth-child(3){
+                             width: 33rem;  
+                             height: 8rem;
+                             background-color:var(--background-color-800);
+                           }                   
