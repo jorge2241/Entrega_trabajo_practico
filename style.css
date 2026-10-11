@@ -19,7 +19,7 @@
 
 
      --background-color-700:rgb(33, 40, 40) ;
-    --background-color-800:rgb(20, 19, 19) ;
+    --background-color-800:#000;
     --text-color-100: #ffff;
     --text-color-700: #fff9;
     --text-color-800: #0000;
@@ -47,7 +47,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 11px;
+    gap: 1px;
 }
 
   /*  HEADER  */
@@ -57,8 +57,8 @@ header{
          min-height: 1rem;
          background-color:var(--background-color-800);
 
-         margin: 10px;
-         border: 10px; 
+         margin: 1px;
+         border: 1px; 
 
          display: flex;
          flex-direction: row;
@@ -180,6 +180,10 @@ header{
                         color:var(--text-color-100);
                         background-color:var(--background-color-800);
                         }
+.header-h:nth-child(12){
+                        color:var(--text-color-100);
+                        background-color:var(--background-color-800);
+                        }
 
 
 
@@ -209,7 +213,8 @@ header{
 
 .Elsad-p{
           width: 94rem;  
-           background-color:var(--background-color-800);       /*  cuando este mas terminado poner este color   var(--background-color-800);*/
+          height: 16rem;
+          background-color:var(--background-color-800);       /*  cuando este mas terminado poner este color   var(--background-color-800);*/
           
           display: flex;
           flex-direction: column;
@@ -219,7 +224,7 @@ header{
 
 .Elsad-h{
        width: 100%;
-       height: 4rem;
+       height: 2rem;
        border-radius: 10px;
        background-color:var(--background-color-800);
        margin: 10px;
@@ -254,7 +259,13 @@ header{
                        font-size: 1rem;
                      
                      }
-
+.Elsad-h:nth-child(4){
+                       width: auto; 
+                       color: var(--success-color-100);
+                       background-color:var(--background-color-800);
+                       font-size: 1rem;
+                     
+                     }
 
 /*   INICIO :   contenedor de imagen*/                     
                     
@@ -701,7 +712,7 @@ header{
 
 .Foot-p-zocalo{
        width: 94rem; 
-       height: 15rem;
+       height: 9rem;
        background-color:var(--background-color-800);
 
 
@@ -714,7 +725,7 @@ header{
 
 .Foot-h-zocalo{
        width: 32rem;
-       height: 10rem;
+       height: 8rem;
        border-radius: 10px;
        background-color: black;
        margin: 10px;
