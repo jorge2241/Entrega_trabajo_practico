@@ -81,6 +81,21 @@ header{
      
      }
  
+
+ 
+.header-h{
+       width: 7rem;
+       height: 4rem;
+       border-radius: 10px;
+       background-color: black;
+       margin: 2px;
+       border: 50px; 
+
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      }
+       
 .business{
           color: #fff;
           background-color:rgb(16, 15, 15);
@@ -110,30 +125,37 @@ header{
         }                
 
 .listas-h-2:nth-child(1){
-                           width: 100%;
-                           color:var(--text-color-100);
-                           background-color:violet;
+                           width: 9rem;
+                           
+                           background-color: var(--background-color-800);
                            
                         }   
 
 .listas-h-2:nth-child(2){
-                           width: 100%;
-                           color:var(--text-color-100);
-                           background-color:violet;
+                           width: 6rem;
+                          
+                           background-color:var(--background-color-800);
                            
                         }   
 .listas-h-2:nth-child(3){
-                           width: 100%;
-                           color:var(--text-color-100);
-                           background-color:violet;
+                           width: 6rem;
+                          /* color:var(--text-color-100); */
+                           background-color:var(--background-color-800);
                           
                         }   
 .listas-h-2:nth-child(4){
-                           width: 100%;
-                           color:var(--text-color-100);
-                           background-color:violet;
+                           width: 6rem;
+                          
+                           background-color: var(--background-color-800);
                            
                         }   
+
+
+ .bt-l-h-2{
+            background-color:var(--background-color-700);
+            color:var(--text-color-100);
+            border: none;
+           }
 
 
 .cont-der{
@@ -152,19 +174,6 @@ header{
       }        
 
 
-.header-h{
-       width: 7rem;
-       height: 4rem;
-       border-radius: 10px;
-       background-color: black;
-       margin: 2px;
-       border: 50px; 
-
-       display: flex;
-       justify-content: center;
-       align-items: center;
-      }
-   
 .logo-business{
                 display: flex;
                 flex-direction: row;
