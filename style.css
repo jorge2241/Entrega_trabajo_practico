@@ -18,7 +18,7 @@
     --success-color-800: #0000;
 
 
-     --background-color-700:rgb(33, 40, 40) ;
+    --background-color-700:rgb(29, 30, 30) ;
     --background-color-800:#000;
     --text-color-100: #ffff;
     --text-color-700: #fff9;
@@ -47,7 +47,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1px;
+    gap: 0px;
 }
 
   /*  HEADER  */
@@ -87,10 +87,17 @@ header{
          }  
          
 .boton{
-         background-color:rgb(16, 15, 15);
+          width: 16rem;
+          height: 3rem;
+          background-color: var(--success-color-100);
+          color: black;
+          padding: 10px 20px;
+          font-size: 1rem;
+        /* background-color:rgb(16, 15, 15);
          color:#fff;
-         border: none;
+         border: none; */
       }         
+
 
  .boton:hover{
          /* transform: scale(2.7); 
@@ -102,10 +109,32 @@ header{
                   
         }                
 
-.listas{
-           display: flex;
-           flex-direction: row;
-       }   
+.listas-h-2:nth-child(1){
+                           width: 100%;
+                           color:var(--text-color-100);
+                           background-color:violet;
+                           
+                        }   
+
+.listas-h-2:nth-child(2){
+                           width: 100%;
+                           color:var(--text-color-100);
+                           background-color:violet;
+                           
+                        }   
+.listas-h-2:nth-child(3){
+                           width: 100%;
+                           color:var(--text-color-100);
+                           background-color:violet;
+                          
+                        }   
+.listas-h-2:nth-child(4){
+                           width: 100%;
+                           color:var(--text-color-100);
+                           background-color:violet;
+                           
+                        }   
+
 
 .cont-der{
             display: flex;
@@ -117,6 +146,9 @@ header{
          background-color:rgb(16, 15, 15);
          color:#fff;
          border: none;
+         margin-top: 1px;
+         margin-left: -94px; 
+         
       }        
 
 
@@ -125,7 +157,7 @@ header{
        height: 4rem;
        border-radius: 10px;
        background-color: black;
-       margin: 10px;
+       margin: 2px;
        border: 50px; 
 
        display: flex;
@@ -134,19 +166,72 @@ header{
       }
    
 .logo-business{
-                width: 11rem;
-                height: 12rem;
-                background-color: aqua;
-}              
+                display: flex;
+                flex-direction: row;
+                gap: 13px;
+                
+}         
+
+.prueba-hablar-1{
+              width: 52vh;
+              height: 8vh;
+              border-radius: 44px;
+              margin-top: -1px;
+              margin-left: 4px;
+              color: var(--text-color-100);
+              font-size: 2vh;
+              background-color:var(--background-color-700);
+
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              gap: 12px;
+           }
+
+.prueba-hablar-2{
+              width: 52vh;
+              height: 8vh;
+              border-radius: 44px;
+              margin-top: -1px;
+              margin-left: 4px;
+              color: black;
+              font-size: 2vh;
+              background-color:var(--success-color-100);
+
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+           }           
+
+.pruebaOPAI-header{
+              width: 45%;
+              height: 30%;
+              margin-top: 1px;
+              margin-left: 4px;
+              color: var(--success-color-100);
+              font-size: 2hv;
+              border: none;
+             
+              background-color:var(--background-color-700);
+
+              display: flex;
+              flex-direction: row;
+              justify-content: space-evenly;
+              align-items: flex-start;
+           }           
 
 .header-h:nth-child(1){
+                       width: 10rem;
                        color:var(--text-color-100);
                        background-color:var(--background-color-800);
                       
                      }
 .header-h:nth-child(2){
-                      color:var(--text-color-100);
-                      background-color:var(--background-color-800);
+                        width: 30rem;
+                        color:var(--text-color-100);
+                        background-color:var(--background-color-800);
                      }
 .header-h:nth-child(3){
                      
@@ -158,33 +243,21 @@ header{
                       background-color:var(--background-color-800);
                      }
 .header-h:nth-child(5){
-                       color:var(--text-color-100);
-                       background-color:var(--background-color-800);
+                        width: 15rem;
+                        color:var(--text-color-100);
+                        background-color:var(--background-color-800);
                       }
 .header-h:nth-child(6){
+                       width: 28rem; 
                        color:var(--text-color-100);
                        background-color:var(--background-color-800);
                        }
 .header-h:nth-child(7){
-                        color:var(--text-color-100);
-                        background-color:var(--background-color-800);
-                      }
-.header-h:nth-child(8){
+                       width: 3rem; 
                        color:var(--text-color-100);
                        background-color:var(--background-color-800);
-                       }
-.header-h:nth-child(9){
-                        color:var(--text-color-100);
-                        background-color:var(--background-color-800);
-                       }
-.header-h:nth-child(10){
-                        color:var(--text-color-100);
-                        background-color:var(--background-color-800);
-                       }
-.header-h:nth-child(11){
-                        color:var(--text-color-100);
-                        background-color:var(--background-color-800);
-                        }
+                       }                       
+
 
 
 
