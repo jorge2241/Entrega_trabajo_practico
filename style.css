@@ -30,6 +30,10 @@
     --height:15vh ;
 
 }
+/*
+*{
+  outline: 1px solid red;
+}                               */
 
 *{
     padding: 0;
@@ -42,6 +46,11 @@ a{
     text-decoration: none;
     color: var(--text-color-800);
 }
+
+html,
+body{
+      overflow-x: hidden;
+}
 .contenedor{
             width: 100%;
             max-width: 1920px; 
@@ -51,20 +60,31 @@ a{
             flex-direction: column;
           }
 
-
+.img{
+      max-width: 100%;
+      height: auto;
+      display: block;
+}
 
   /*  HEADER  */
 
-header{
+.header{
         width: 100%;
-        max-width: 1920px;
+      /*  max-width: 1920px;
         height: auto;
         background-color:var(--background-color-800);  
        
          display: flex;
-         flex-direction: row;
-
+         flex-direction: row; */
        }
+ #header{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 16px 32px;
+          gap: 20px;
+          flex-wrap: wrap;
+ }      
 
 .header-p{
           position: fixed;
@@ -269,7 +289,7 @@ header{
 .tarjetas-main{
                 width: 100%; 
                 max-width: 1400px;
-                
+                margin: auto;
                 margin-left: 11px;
 
                 background-color:var(--background-color-800);
@@ -291,8 +311,12 @@ header{
                  background-color:var(--background-color-800);
                
                 display: flex;
-                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+                gap: 40px;
 
+              /*  flex-wrap: wrap;
+*/
 }
 
 /*   INICIO :   contenedor de imagen*/                     
@@ -316,12 +340,16 @@ header{
 
 .tarjeta-hero 
 .tarjeta-hero__imagen{
-                          width:95%;
-                          height: 85vh;
+                        /* width:95%;
+                         height: 85vh;
                          border-radius: 10px;
 
                           margin: 10px;
+                          display: block;*/
+                          width: 100%;
+                          height: auto;
                           display: block;
+                          border-radius: 20px;
                          }   
 
 /*   FINAL :   contenedor de imagen*/           
@@ -486,10 +514,24 @@ header{
             }
 
  .tp{
-      font-size: 4rem;
+      font-size: clamp(2rem, 5vw, 4.5rem);
+      line-height: 1.1;
  }           
  
- 
+ h2{
+      font-size: clamp(1.8rem, 4vw, 3rem);
+ }
+
+ .col-span{
+             font-size: clamp(1rem, 2vw, 1.2rem);
+ }
+
+ .bt-hero{
+           display: flex;
+           gap: 20px;
+ }
+
+
  /*  Encuentra la solucion adecuada  */
 
 .Elsad-p{
@@ -605,14 +647,17 @@ header{
 
 
 .img-p{
+     /*
         width: 100%;
         height: 111vh;
        
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: center;*/
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
        
-        gap: 20px;
+        gap: 30px;
        }
 
 .img-h{
@@ -755,10 +800,10 @@ header{
 
 
        display: flex;
-       flex-direction: row;
-       justify-content: space-evenly;
+      /* flex-direction: row; */
+       justify-content: space-between;
        align-items: center;
-       gap: 22px;
+       /*gap: 22px;*/
       }
 
 .Foot-h-zocalo{
@@ -904,366 +949,98 @@ header{
 
 /*  MEDIAS  QUERI  :   RESPONSIVO   */           
 
-/*  MEDIAS  QUERIES  :  1250px  */           
-
-                           
-@media screen and (max-width: 1250px){
-   
-  .contenedor{
-                flex: 1
-    }
-
-    .header{
-             flex: 1;
-    }
-    .header-p{
-               flex: 1;
-    }
-
-  
-    .listas-h-2{
-                  display: none;
-    }
-    
- .bt-l-h-2{
-            display: none; 
- }
-    
-
-.Elsad-h:nth-child(1){
-                       width: 90%;
-                       font-size: 20px;
-                       margin-top: 66px;
-                    }
-
-.Elsad-h:nth-child(2){
-                       width: 90%;
-                       font-size: 14px;
-                                     
-                   }
-
-.Elsad-h:nth-child(3){
-                       width: 90%; 
-                       font-size: 14px;
-                     
-                     }
-.Elsad-h:nth-child(4){
-                       width: 90%; 
-                       font-size: 14px;
-                     
-                     }
-
-   .header-p{
-          position: fixed;
-          top: 1px;
-          left: 1px;
-          z-index: 100;   
-    
-          width: 80rem;
-          height: var(--height);
-        
-          background-color:var(--background-color-800);
-          display: flex;
-          flex-direction: row;
-     
-     }
- 
-
- .header-h:nth-child(2){
-                        width: 6rem;
                         
-                     }
- .header-h:nth-child(3){
-                          width: 6rem; 
-                    
-                    }
- .header-h:nth-child(4){
-                          width: 6rem;
-                     }
-
-.header-h:nth-child(5){
-                        width: 10rem;
-                        
-                      }
+@media screen and (max-width: 992px){
 
 
-.main{
-        width: 80%;
-        height: 73rem;
-     
-        margin: 1px;
-        border: 1px; 
-
-     }
-
-.img-p{
-         width: 100%;
-         height: 70rem;
-         padding: 10px;    
-         flex-direction: column; 
-         flex:1;
-    } 
-
-.tarjeta-producto 
-.tarjeta-producto__imagen{
-                           width:96%;
-                           margin: 16px;
-                           border: 50px; 
-                         }   
-.img-h:nth-child(1){
-                    
-                     height:50rem;
-                    
-                    }
-
-
-.img-h:nth-child(2){
-                    
-                     height:50rem;
-                    
-                    }
-
-.img-h:nth-child(3){
-                     
-                      height:50rem;
-                     
-                     
-                    }
-
-.Foot-p{
-         width: 84rem; 
-         height: 120rem;
-        
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 22px;
-      }
-
-.Foot-p-zocalo{
-                height: 22rem;
-       
-                display: flex;
-                flex-direction: column;
-                justify-content: space-evenly;
-                align-items: center;
-                gap: 22px;
-      }
-
-
-.investigacion{
-                 width: 95%;
-                 height: 17rem;
-                 margin-top: 84px;
-                 margin-left: 0px;
-                            
-                 
-               }
-                
-
-.ultimos-avances{
-                  width: 95%;
-                  height: 17rem;
-                  
-                 }
-
-
-                 
-.seguridad{
-              width: 95%;
-              height: 17rem;
-              
-             
-
-           }
-                                       
-          }
-       
- 
-
-
-
-
-
-/*  MEDIAS  QUERIES  :  por minima medida  1250px  */     
-/*  borro  el boton deslizable cuando la pantalla 
-    supera los 1250 px  */           
-
-
-@media screen and (min-width: 1250px) {
-    
-     .btn-des{
-              display: none;
-    }
-
+  #header{
+          flex-wrap: wrap;
+          justify-content: center;
+  }
 }
 
-/*  MEDIAS  QUERI  :  1000px  */        
+                        
+@media screen and (max-width: 768px){
 
-@media screen and (max-width: 1000px){
-    .listas-h-2{
-        display: none;
-    }
-    
- .bt-l-h-2{
-            display: none; 
- }
-    .lista-productos{
-        gap:0;
-    }
 
-    .header{
-        flex-direction: row;
-
-    }
-
-    .header-p{
-          position: fixed;
-          top: 20px;
-          left: -53px;
-          z-index: 100;   
-    
-          width: 55rem;
-          height: 14rem;
-        
-          
-          display: flex;
+  #header{
           flex-direction: column;
-          justify-content: space-between;
           align-items: center;
-     
-     }
- 
+          gap: 15px;
+  }
+}
 
- .header-h:nth-child(2){
-                        width: 3rem;
-                        
-                     }
- .header-h:nth-child(3){
-                          width: 3rem; 
-                    
-                    }
- .header-h:nth-child(4){
-                          width: 3rem;
-                     }
+                       
+@media screen and (max-width: 992px){
 
-.header-h:nth-child(5){
-                        width: 7rem;
-                        
-                      }
+
+  .tarjetas-hero{
+                  flex-direction: column;
+                   text-align: center;
+          
+  }
+}
                       
+@media screen and (max-width: 992px){
 
-.main{
-        width: 100%;
-        height: 73rem;
-     
-        margin: 1px;
-        border: 1px; 
+                .img-p{
+                        grid-template-columns: repeat(2, 1fr);
+          
+  }
+}
 
-     }
+@media screen and (max-width: 768px){
 
-.Elsad-h:nth-child(1){
-                       width: 90%;
-                       font-size: 20px;
-                       margin-top: 120px;
-                    }
-
-.Elsad-h:nth-child(2){
-                       width: 90%;
-                       font-size: 14px;
-                                     
-                   }
-
-.Elsad-h:nth-child(3){
-                       width: 90%; 
-                       font-size: 14px;
-                     
-                     }
-.Elsad-h:nth-child(4){
-                       width: 90%; 
-                       font-size: 14px;
-                     
-                     }
+                .img-p{
+                        grid-template-columns:  1fr;
+          
+  }
+}
 
 
-.img-p{
-         width: 100%;
-         height: 180rem;
-         padding: 10px;    
-         flex-direction: column; 
-         flex:1;
-    } 
+@media screen and (max-width: 768px){
 
-.tarjeta-producto 
-.tarjeta-producto__imagen{
-                           width:96%;
-                           margin: 16px;
-                           border: 50px; 
-                         }   
-.img-h:nth-child(1){
-                    
-                     height:50rem;
-                    
-                    }
+                .bt-hero{
+                          flex-direction: column;
+                          width: 100%;
+            }
+
+            .boton-hero1,
+            .boton-hero2{
+                          width: 100%;
+                          text-align: center;
+            }
+}
 
 
-.img-h:nth-child(2){
-                    
-                     height:50rem;
-                    
-                    }
+@media screen and (max-width: 768px){
 
-.img-h:nth-child(3){
-                     
-                      height:50rem;
-                     
-                     
-                    }
-
-.Foot-p{
-         width: 94rem; 
-         height: 120rem;
-        
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 22px;
-      }
-
-  
+                .Foot-p-zocalo{
+                                flex-direction: column;
+                                gap: 20px;
+                                text-align: center;
+            }
 
 }
 
-/*  MEDIAS  QUERI  :  530px  */        
 
+@media screen and (max-width: 320px){
 
-@media screen and (max-width: 530px) {
-    .lista-productos__lista{
-        flex-direction: row;
-        gap: 0;
-        flex-wrap: wrap;
-    }
-    .tarjeta-producto-contenedor{
-        flex: auto;
-        width: 50%;
-    }
+                .tp{
+                      font-size: 1.8rem;    
+            }
+            .boton-hero1,
+            .boton-hero2,
+            .boton-main{
+                         font-weight: 14px;
+                         padding: 12px;
+            }
+            .tarjeta-producto{
+                               padding: 15px;
+            }
 
-    .tarjeta-producto{
-        flex-direction: column;
-        padding: 10px;
-        
-    }
+            #header{
+                     padding: 10px;
+            }
 
-    .border-rigth-mobile{
-        border-right: var(--border-color);
-    }
-
-    .tarjeta-producto
-    .tarjeta-producto__imagen{
-        width: 100%;
-    }
-   }    
+}
