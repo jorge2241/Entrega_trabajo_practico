@@ -46,7 +46,14 @@ a{
 
 html,
 body{
-      overflow-x: hidden;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+}
+
+body{
+      display: flex;
+      flex-direction: column;
 }
 .contenedor{
             width: 100%;
@@ -55,8 +62,16 @@ body{
 
             display: flex;
             flex-direction: column;
+            min-height: 100vh;
           }
 
+.main{
+       flex: 1;
+}          
+footer{
+  position: relative;
+  width: 100%;
+}
 
   /*  HEADER  */
 
@@ -483,6 +498,7 @@ body{
 .boton-hero1{
              width: 17rem;
              height: 3rem;
+              border-radius: 33px;
              background-color: var(--success-color-100);
              color:black;
              padding: 10px 20px;
@@ -493,6 +509,7 @@ body{
 .boton-hero2{
              width: 20rem;
              height: 3rem;
+             border-radius: 33px;
              background-color:var(--background-color-700);
              color: var(--text-color-100);
              padding: 10px 20px;
@@ -649,8 +666,7 @@ body{
        }
 
 .img-h{
-      
-       
+             
         flex: 1; 
         min-width: 280px;
         max-height: 950px ;
@@ -760,21 +776,6 @@ body{
      
       }
  
-
-/*  PARA TODAS LAS  COLUMNAS DEL FOOTER */
-
-
-.text-primario-foot{
-                     font-size: 2vh; 
-                     color: var(--text-color-700);  
-                     background-color:var(--background-color-800);
-                   }
-
-.text-secundario-foot{
-                       font-size: 2vh;
-                       color: var(--text-color-100);  
-                       background-color:var(--background-color-800);
-                      }
 
 
 
