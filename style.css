@@ -755,6 +755,7 @@ footer{
 .boton-main{
              width: 16rem;
              height: 3rem;
+             border-radius: 33px;
              background-color: var(--success-color-100);
              color: black;
              padding: 10px 20px;
@@ -1057,6 +1058,10 @@ footer{
                           width: 100%;
                           text-align: center;
             }
+             .tarjetas-main{
+                             flex-direction: column;
+                                gap: 20px;
+            }
 }
 
 
@@ -1086,18 +1091,27 @@ footer{
                                padding: 15px;
             }
 
+            .tarjetas-main{
+                             flex-direction: column;
+                                gap: 20px;
+            }
+
             #header{
                      padding: 10px;
             }
             .listas-h-2{
         display: none;
-    }
+       }
     
- .bt-l-h-2{
-            display: none; 
- }
-    .lista-productos{
+        .prueba-hablar-1{
+                   display: none;
+      }
+        .prueba-hablar-2{
+                   display: none;
+     }
+        .lista-productos{
         gap:0;
     }
+    
 
 }
