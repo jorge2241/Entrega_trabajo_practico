@@ -971,6 +971,17 @@ footer{
           flex-wrap: wrap;
           justify-content: center;
   }
+
+   .listas-h-2{
+        display: none;
+    }
+    
+ .bt-l-h-2{
+            display: none; 
+ }
+    .lista-productos{
+        gap:0;
+    }
 }
 
                         
@@ -982,6 +993,23 @@ footer{
           align-items: center;
           gap: 15px;
   }
+
+  .listas-h-2{
+        display: none;
+    }
+    
+ .bt-l-h-2{
+            display: none; 
+ }
+ .prueba-hablar-1{
+                   display: none;
+ }
+ .prueba-hablar-2{
+                   display: none;
+ }
+    .lista-productos{
+        gap:0;
+    }
 }
 
                        
@@ -1061,5 +1089,15 @@ footer{
             #header{
                      padding: 10px;
             }
+            .listas-h-2{
+        display: none;
+    }
+    
+ .bt-l-h-2{
+            display: none; 
+ }
+    .lista-productos{
+        gap:0;
+    }
 
 }
