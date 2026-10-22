@@ -297,7 +297,8 @@ footer{
                 width: 100%; 
                 max-width: 1400px;
                 margin: auto;
-                margin-left: 11px;
+                margin: 0 auto;
+                padding:  0  1%;
 
                 background-color:var(--background-color-800);
 
@@ -678,7 +679,9 @@ footer{
 
 
 .img-h:nth-child(1){
-                     width:50rem;
+                    
+                     flex: 1  1  350px;
+                     max-width: 450px;
                      min-height: 45rem;
                      height:auto;
                      border-radius: 10px;
@@ -688,7 +691,9 @@ footer{
 
 
 .img-h:nth-child(2){
-                     width:50rem;
+                     
+                     flex: 1  1  350px;
+                     max-width: 450px;
                      min-height: 45rem;
                      height:auto;
                      border-radius: 10px;
@@ -697,7 +702,9 @@ footer{
                     }
 
 .img-h:nth-child(3){
-                      width:50rem;
+                     
+                      flex: 1  1  350px;
+                      max-width: 450px;
                       min-height: 45rem;
                       height:auto;
                       border-radius: 10px;
