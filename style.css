@@ -499,7 +499,7 @@ footer{
 .boton-hero1{
              width: 17rem;
              height: 3rem;
-              border-radius: 33px;
+             border-radius: 33px;
              background-color: var(--success-color-100);
              color:black;
              padding: 10px 20px;
@@ -986,6 +986,32 @@ footer{
     .lista-productos{
         gap:0;
     }
+
+     .img-hero-p{
+              flex-direction: column;           
+              align-content: center ;             
+              gap: 20px;
+
+            }
+
+    
+  .tarjetas-hero{
+                  flex-direction: column;
+                   text-align: center;
+          
+  }
+  
+                .img-p{
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        gap: 30px;
+          
+  }
+  .img-h{
+          flex: 1  1  300px;
+          max-width: 400px;
+  }
 }
 
                         
@@ -997,6 +1023,13 @@ footer{
           align-items: center;
           gap: 15px;
   }
+
+  .img-hero-p{
+              flex-direction: column;           
+              align-content: center ;             
+              gap: 20px;
+
+            }
 
   .listas-h-2{
         display: none;
@@ -1014,43 +1047,24 @@ footer{
     .lista-productos{
         gap:0;
     }
-}
 
-                       
-@media screen and (max-width: 992px){
-
-
-  .tarjetas-hero{
-                  flex-direction: column;
-                   text-align: center;
-          
-  }
-}
-                      
-@media screen and (max-width: 992px){
-
-                .img-p{
-                        display: grid;
-                        grid-template-columns: repeat(3,1fr);
-                        gap: 30px;
-          
-  }
-}
-
-@media screen and (max-width: 768px){
-
-                .img-hero-p,
+     .img-hero-p,
                 .img-p,
                 .img-h,
                 .img-hero-h{
                                height: auto;
                                min-height: auto;
                 }
-}
+                .img-p{
+                   flex-direction: column;
+                   align-items: center;
+                }
+                .img-h{
+                        width: 100%;
+                        max-width: 600px;
+                }
 
-
-@media screen and (max-width: 768px){
-
+                
                 .bt-hero{
                           flex-direction: column;
                           width: 100%;
@@ -1065,18 +1079,19 @@ footer{
                              flex-direction: column;
                                 gap: 20px;
             }
-}
 
-
-@media screen and (max-width: 768px){
-
-                .Foot-p-zocalo{
+             .Foot-p-zocalo{
                                 flex-direction: column;
                                 gap: 20px;
                                 text-align: center;
             }
 
+             .img-h{
+          flex: 1  1  250px;
+          max-width: 300px;
+  }
 }
+
 
 
 @media screen and (max-width: 320px){
