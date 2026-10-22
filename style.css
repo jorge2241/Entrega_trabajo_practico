@@ -542,7 +542,6 @@ footer{
 
 .Elsad-p{
           width: 100%;  
-          /*height: 16rem;*/
           padding: 3rem 1rem;
           background-color:var(--background-color-800);     
           
@@ -771,7 +770,7 @@ footer{
             
             }
 
-      /*  FOOTER   */
+ /*  -------- FOOTER  ------------- */
 
 
 .Foot-p{
@@ -803,25 +802,29 @@ footer{
 
 
        display: flex;
-     
-       justify-content: space-between;
-       align-items: center;
-      
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: stretch;
+       gap: 20px;
       }
 
 .Foot-h-zocalo{
-       width: 32rem;
-       min-height: 8rem;
-       height: auto;
-       border-radius: 10px;
-       background-color: black;
-       margin: 1px;
-       border: 3cap; 
+      
+                flex: 1  1  300px;
+                min-width: 280px;
+                max-width: 500px;
 
-       display: flex;
-       flex-direction: column;
-       justify-content:center;
-       align-items: center;
+                min-height: 8rem;
+                height: auto;
+                border-radius: 10px;
+                background-color: black;
+                margin: 1px;
+                border: 1cap; 
+
+                display: flex;
+                flex-direction: column;
+                justify-content:center;
+                align-items: center;
       }
       
 
@@ -860,20 +863,20 @@ footer{
               }
 
 .cookies-boton-zoc{
-              width: 50%;
-              height: 30%;
-              margin-top: 1px;
-              margin-left: 4px;
-              color: var(--text-color-100);
-              font-size: 1rem;
-              border: none;
-              text-decoration: underline;
-              background-color:var(--background-color-800);
+                    width: 50%;
+                    height: 30%;
+                    margin-top: 1px;
+                    margin-left: 4px;
+                    color: var(--text-color-100);
+                    font-size: 1rem;
+                    border: none;
+                    text-decoration: underline;
+                    background-color:var(--background-color-800);
 
-              display: flex;
-              flex-direction: column;
-              justify-content: space-evenly;
-              align-items: flex-start;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: flex-start;
            }
 .lenguaje{
               width: 52vh;
@@ -892,20 +895,20 @@ footer{
            }
 
 .lenguje-boton-zoc{
-              width: 45%;
-              height: 30%;
-              margin-top: 1px;
-              margin-left: 4px;
-              color: var(--text-color-100);
-              font-size: 1rem;
-              border: none;
+                   width: 45%;
+                   height: 30%;
+                   margin-top: 1px;
+                   margin-left: 4px;
+                   color: var(--text-color-100);
+                   font-size: 1rem;
+                   border: none;
              
-              background-color:var(--background-color-700);
-
-              display: flex;
-              flex-direction: column;
-              justify-content: space-evenly;
-              align-items: flex-start;
+                   background-color:var(--background-color-700);
+ 
+                   display: flex;
+                   flex-direction: column;
+                   justify-content: space-evenly;
+                   align-items: flex-start;
            }           
 
 
@@ -932,20 +935,20 @@ footer{
 
 
 .Foot-h-zocalo:nth-child(1){
-                             width: 23rem;  
+                           
                              height: 8rem;
                              background-color:var(--background-color-800);
                              
                           }
 
 .Foot-h-zocalo:nth-child(2){
-                             width: 33rem;  
+                            
                              height: 8rem;
                              background-color:var(--background-color-800);
                            }
 
 .Foot-h-zocalo:nth-child(3){
-                             width: 33rem;  
+                            
                              height: 8rem;
                              background-color:var(--background-color-800);
                            }                   
@@ -1134,7 +1137,7 @@ footer{
   .img-p,
   .Foot-p,
   .Foot-p-zocalo{
-                  width: 98%;
+                  width: 100%;
                   margin-left: auto;
                   margin-right: auto;
   }
