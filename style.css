@@ -946,7 +946,7 @@ footer{
 
 /*  MEDIAS  QUERI  :   RESPONSIVO   */           
 
-                        
+/*  -----------    1250  px   --------------------------   */                              
 @media screen and (max-width: 1250px){
    
                  .listas-h-2{
@@ -967,6 +967,7 @@ footer{
 
 }
 
+/*  -----------    992  px   --------------------------   */      
 
 @media screen and (max-width: 992px){
 
@@ -1014,7 +1015,8 @@ footer{
   }
 }
 
-                        
+/*  -----------    768  px   --------------------------   */      
+
 @media screen and (max-width: 768px){
 
 
@@ -1090,9 +1092,64 @@ footer{
           flex: 1  1  250px;
           max-width: 300px;
   }
+ 
+  .header,
+  .header-p,
+  #header{
+           width: 100%;
+           max-width: 100%;
+           overflow-x: hidden;
+  }
+  .header-h{
+             width: 100%;
+             max-width: 100%;
+  }
+  .cont-der{
+            width: 100%;
+            justify-content: center;
+  }
+  .boton{
+          width: 100%;
+          max-width: 320px;
+  }
+  .header-h:nth-child(2),
+  .header-h:nth-child(5),
+  .header-h:nth-child(6){
+                          width: 100%;
+  }
+  body{
+        overflow-x: hidden;
+  }
+
+  .tarjetas-main,
+  .tarjeta-hero,
+  .img-hero-p,
+  .img-p,
+  .Foot-p,
+  .Foot-p-zocalo{
+                  width: 98%;
+                  margin-left: auto;
+                  margin-right: auto;
+  }
+  .img-hero-p{
+               margin-left: 0;
+               width: 98%;
+  }
+   
+  .img-h,
+  .img-hero-h{
+               width: 98%;
+               max-width: 98%;
+  }
+
+  .tarjeta-producto__imagen,
+  .tarjeta-hero__imagen{
+                         width: 100%;
+                         margin: 0;
+  }
 }
 
-
+/*  -----------    320  px   --------------------------   */      
 
 @media screen and (max-width: 320px){
 
@@ -1132,4 +1189,10 @@ footer{
     }
     
 
+}
+
+html,
+body{
+       overflow-x: hidden;
+       width: 100%;
 }
