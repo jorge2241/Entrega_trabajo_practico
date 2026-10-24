@@ -1094,7 +1094,7 @@ footer{
 
              .Foot-p-zocalo{
                                 flex-direction: column;
-                                gap: 20px;
+                                gap: 1px;
                                 text-align: center;
             }
 
@@ -1157,6 +1157,26 @@ footer{
                          width: 100%;
                          margin: 0;
   }
+
+  .Foot-h-zocalo{
+                  min-height: auto;
+                  padding: 10px  0;
+  }
+
+  .Foot-p-zocalo{
+                  min-height: auto;
+  }
+ .cookies,
+ .lenguaje{
+            height: auto;
+            min-height: 50px;
+            padding: 10px;
+ }
+ .cookies-boton-zoc,
+ .lenguje-boton-zoc{
+                    height: auto;
+ }
+
 }
 
 /*  -----------    320  px   --------------------------   */      
