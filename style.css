@@ -30,7 +30,9 @@
     --height:15vh ;
 
 }
-
+*{
+   outline:  1px solid red;
+}
 
 *{
     padding: 0;
@@ -193,7 +195,27 @@ footer{
                 gap: 13px;
                 
 }         
+.prueba-hablar-1,
+.prueba-hablar-2{
+                  width: 100%;
+                  max-width: 520px;
+                  min-height: 60px;
+                  height: auto;
 
+                  border-radius: 44px;
+                  color: var(--text-color-100);
+                  background-color:var(--background-color-700);
+
+                  text-align: center;
+                  padding: 10px  15px;
+
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+
+                  flex-wrap: wrap;
+}
+/*
 .prueba-hablar-1{
               width: 52vh;
               height: 8vh;
@@ -225,7 +247,7 @@ footer{
               flex-direction: row;
               justify-content: center;
               align-items: center;
-           }           
+           }       */    
 
 .pruebaOPAI-header{
               width: 45%;
@@ -883,8 +905,10 @@ footer{
                     align-items: flex-start;
            }
 .lenguaje{
-              width: 52vh;
-              height: 8vh;
+              width: 100%;
+              max-width: 350px;
+              min-height: 50px;
+              height: auto;
               border-radius: 44px;
               margin-top: -1px;
               margin-left: 4px;
@@ -1183,6 +1207,35 @@ footer{
 
 }
 
+
+/*  -----------    700  px   --------------------------   */      
+
+@media screen and (max-width: 700px){
+
+.Foot-h-zocalo{
+                flex: 1  1  100%;
+                min-width: 100%;
+                max-width: 100%;
+                height: auto;
+}
+.Foot-p-zocalo{
+                gap: 10px;
+}
+
+.prueba-hablar-1,
+.prueba-hablar-2{
+                  width: 90%;
+                  height: auto;
+                  padding: 12px;
+                  font-size: 0.9rem;
+                  text-align: center;
+                  white-space: normal;
+                  word-wrap: break-word;
+                 
+}
+
+}
+
 /*  -----------    320  px   --------------------------   */      
 
 @media screen and (max-width: 320px){
@@ -1193,7 +1246,7 @@ footer{
             .boton-hero1,
             .boton-hero2,
             .boton-main{
-                         font-weight: 14px;
+                         font-weight: 10px;
                          padding: 12px;
             }
             .tarjeta-producto{
