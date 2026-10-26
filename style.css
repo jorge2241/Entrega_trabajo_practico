@@ -30,9 +30,7 @@
     --height:15vh ;
 
 }
-*{
-   outline:  1px solid red;
-}
+
 
 *{
     padding: 0;
@@ -215,39 +213,7 @@ footer{
 
                   flex-wrap: wrap;
 }
-/*
-.prueba-hablar-1{
-              width: 52vh;
-              height: 8vh;
-              border-radius: 44px;
-              margin-top: -1px;
-              margin-left: 4px;
-              color: var(--text-color-100);
-              font-size: 2vh;
-              background-color:var(--background-color-700);
 
-              display: flex;
-              flex-direction: row;
-              justify-content: center;
-              align-items: center;
-              gap: 12px;
-           }
-
-.prueba-hablar-2{
-              width: 52vh;
-              height: 8vh;
-              border-radius: 44px;
-              margin-top: -1px;
-              margin-left: 4px;
-              color: var(--background-color-800);
-              font-size: 2vh;
-              background-color:var(--success-color-100);
-
-              display: flex;
-              flex-direction: row;
-              justify-content: center;
-              align-items: center;
-           }       */    
 
 .pruebaOPAI-header{
               width: 45%;
@@ -923,10 +889,10 @@ footer{
            }
 
 .lenguje-boton-zoc{
-                   width: 45%;
-                   height: 30%;
-                   margin-top: 1px;
-                   margin-left: 4px;
+                
+                   width: auto;
+                   height: auto;
+                   margin: 0;
                    color: var(--text-color-100);
                    font-size: 1rem;
                    border: none;
@@ -934,9 +900,12 @@ footer{
                    background-color:var(--background-color-700);
  
                    display: flex;
-                   flex-direction: column;
-                   justify-content: space-evenly;
-                   align-items: flex-start;
+                
+
+                   justify-content: center;
+                   align-items: center;
+
+                   white-space: nowrap;
            }           
 
 
@@ -1003,6 +972,28 @@ footer{
               display: none;
     }
 
+}
+
+
+/*  -----------    1000  px   --------------------------   */      
+
+@media screen and (max-width: 1200px){
+
+
+
+     .img-hero-p{
+              flex-direction: column;           
+              align-items: center ;             
+              text-align: center;
+
+            }
+       .img-hero-h{
+                    width: 100%;
+                    max-width: 500px;
+                    min-width: 0;
+       }
+    
+  
 }
 
 /*  -----------    992  px   --------------------------   */      
